@@ -1,0 +1,77 @@
+# 📑 Changelog – Sentiment Analysis on Twitter Data
+
+All notable changes to this project will be documented here.
+
+# [v1.0.0] – 2025-09-25
+
+🎉 Initial Release
+
+Completed Sentiment Analysis Project as part of CodeAlpha Internship.
+
+Uploaded cleaned and structured Jupyter Notebook.
+
+Added full README with project overview, methodology, results, and insights.
+
+# [v0.5.0] – 2025-09-24
+
+✨ Model Training & Evaluation
+
+Implemented Logistic Regression and Naive Bayes models.
+
+Achieved accuracy: 77% (LR), 75% (NB).
+
+Added performance metrics (Accuracy, Precision, Recall, F1).
+
+Generated confusion matrices and ROC curves.
+
+# [v0.4.0] – 2025-09-23
+
+📊 Preprocessing Enhancements
+
+Applied TF-IDF Vectorization.
+
+Split dataset into training & testing sets.
+
+Balanced target classes (0 → Negative, 4 → Positive mapped to 0/1).
+
+# [v0.3.0] – 2025-09-22
+
+🧹 Data Cleaning
+
+Removed URLs, user mentions, hashtags, punctuation.
+
+Converted text to lowercase.
+
+Removed stopwords using NLTK.
+
+Created clean_text column.
+
+# [v0.2.0] – 2025-09-21
+
+📂 Dataset Setup
+
+Imported Sentiment140 Dataset from Kaggle.
+
+Sampled 100,000 rows for faster processing.
+
+Verified dataset shape and structure.
+
+# [v0.1.0] – 2025-09-20
+
+🔧 Environment Setup
+
+Configured project in VS Code with Jupyter kernel.
+
+Installed dependencies: pandas, numpy, scikit-learn, nltk, matplotlib.
+
+Created initial notebook structure.
+
+# 📌 Upcoming Plans
+
+ Add feature importance visualization (top positive & negative words ✅).
+
+ Extend training on full 1.6M dataset.
+
+ Experiment with deep learning models (LSTM, BERT).
+
+ Deploy model using Flask/Streamlit.
